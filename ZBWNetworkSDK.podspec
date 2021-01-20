@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZBWNetworkSDK"
-  s.version      = "0.0.9"
+  s.version      = "0.0.11"
   s.summary      = "网络库，上层封装."
 
   # This description is used to generate tags and improve search results.
