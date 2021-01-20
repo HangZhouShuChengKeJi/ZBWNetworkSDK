@@ -7,7 +7,7 @@
 //
 
 #import "ZBWNWProxy.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 #import <objc/runtime.h>
 
 @interface ZBWNWProxy ()

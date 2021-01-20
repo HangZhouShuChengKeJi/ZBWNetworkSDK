@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ZBWNetworkSDK"
   s.version      = "0.0.9"
-  s.summary      = "A short description of ZBWNetworkSDK."
+  s.summary      = "网络库，上层封装."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    kajdfkadf
+                    网络库，上层封装. 在底层网络库变更是，不影响上层业务层。
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ZBWNetworkSDK"
+  s.homepage     = "https://github.com/HangZhouShuChengKeJi/ZBWNetworkSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "bwzhu" => "" }
+  s.author             = { "bwzhu" => "bowen.zhu@91chengguo.com" }
   # Or just: s.author    = "bwzhu"
   # s.authors            = { "bwzhu" => "" }
   # s.social_media_url   = "http://twitter.com/bwzhu"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@gitlab.91chengguo.com:component-iOS/ZBWNetworkSDK.git", :tag => "#{s.version}"}
+  s.source       = { :git => "https://github.com/HangZhouShuChengKeJi/ZBWNetworkSDK.git", :tag => "#{s.version}"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ZBWNetworkSDK","ZBWNetworkSDK/ZBWNetworkSDK/**/*.{h,m}"
+  s.source_files  = "ZBWNetworkSDK","ZBWNetworkSDK/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
