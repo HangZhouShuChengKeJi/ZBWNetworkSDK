@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class ZBWNWRequest;
+
 @interface ZBWNWResponse : NSObject
 
 @property (nonatomic, assign) BOOL  isSuccess;
@@ -19,5 +21,8 @@
 // HTTP返回码和头部
 @property (nonatomic, assign) NSInteger   statusCode;
 @property (nonatomic, copy)NSDictionary *respHeaders;
+
+// 请求request
+@property (nonatomic) ZBWNWRequest  *request;
 
 @end

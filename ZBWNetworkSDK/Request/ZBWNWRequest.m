@@ -164,6 +164,7 @@ dispatch_queue_t ZBWNw_requestQueue()
             resp.error = error;
             resp.respHeaders = [(NSHTTPURLResponse *)response allHeaderFields];
             resp.statusCode = [(NSHTTPURLResponse *)response statusCode];
+            resp.request = self;
             
             if ([self.requestProtocol respondsToSelector:@selector(afterAssembleResponse:)]) {
                 [self.requestProtocol afterAssembleResponse:resp];
